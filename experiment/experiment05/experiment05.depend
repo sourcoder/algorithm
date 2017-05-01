@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1492177538 source:c:\users\dell\desktop\curriculum\semester_4\datastructure\experiment\experiment05\main.cpp
+	<iostream>
+	<fstream>
+

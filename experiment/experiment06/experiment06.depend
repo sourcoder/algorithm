@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1493369000 source:c:\users\dell\desktop\curriculum\semester_4\datastructure\experiment\experiment06\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

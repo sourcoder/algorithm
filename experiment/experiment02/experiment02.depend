@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1490357858 source:c:\users\dell\desktop\curriculum\semester_4\datastructure\experiment\experiment02\main.cpp
+	<iostream>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+
