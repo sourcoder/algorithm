@@ -60,7 +60,7 @@ void sca(BiTree bt,BiTree q, BiTree p,int &mark)
         sca(bt->rchild, q, p, mark);
     }
 }
-int main() {
+int main() {            
     BiTree root = create();
     cout << "树的高度" << diameter(root) << endl;
     cout << "最近的公共祖先：" << acester->data << endl;
