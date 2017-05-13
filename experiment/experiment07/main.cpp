@@ -83,11 +83,36 @@ void midtravel(SBiT root)
         p = next(p);
     }
 }
+//最后一个元素
+SBiT last(SBiT p)
+{
+    while(p && p->rtag == LINK)
+        p = p->rchild;
+    return p;
+}
+//找到前驱节点
+SBiT previous(SBiT p)
+{
+    if(p->ltag == THREAD)
+        return p->lchild;
+    return last(p->lchild);
+}
+void midtravel2(SBiT root)
+{
+    SBiT p = last(root);
+    while(p)
+    {
+        cout << p->data;
+        p = previous(p);
+    }
+}
 int main()
 {
     SBiT root = create(),pre = NULL;;
     midThreading(root, pre);
     pre->rtag = THREAD;
     midtravel(root);
+    cout << endl;
+    midtravel2(root);
     return 0;
 }
