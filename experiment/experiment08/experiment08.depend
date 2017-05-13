@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1494605196 source:c:\users\dell\desktop\curriculum\semester_4\datastructure\algorithm\experiment\experiment08\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	<math.h>
+
