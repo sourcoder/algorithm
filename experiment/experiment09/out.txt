@@ -1,0 +1,6 @@
+Node V0:0
+Node V1:3
+Node V2:2
+Node V3:7
+Node V4:6
+Node V5:9
