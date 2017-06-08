@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1496411053 source:c:\users\dell\desktop\curriculum\semester_4\datastructure\algorithm\mst\main.cpp
+	<algorithm>
+	<iostream>
+	<fstream>
+	<vector>
+	<memory.h>
+	<math.h>
+
